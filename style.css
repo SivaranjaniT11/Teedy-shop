@@ -1,0 +1,82 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none; border:none;
+    
+}
+html{
+    font-size:20px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+.bg{
+    background-color: rgb(204, 202, 200);
+}
+.btn1{
+    margin-left: 1%;
+}
+.btn1:hover{
+    color:rgb(148, 6, 93);
+}
+#home .card-img-overlay{
+    margin-top:15%;
+}
+.section-padding{
+    padding: 120px 0;
+}
+#Products .col{
+transition:0.5s ease;
+cursor: pointer;
+
+}
+#Products .col:hover{
+    transform: translateY(20px);
+}
+#product .box:hover{
+    background-color:rgb(148, 6, 93);
+}
+.icons .fa-square-instagram:hover,.fa-square-whatsapp:hover,.fa-square-twitter:hover
+{
+    
+    color: rgb(72, 2, 47);
+}
+footer{
+    background-color: rgb(251, 117, 139);
+    color:rgb(76, 2, 50);
+     opacity:.9;
+}
+
+
+
+
+@media (max-width:991px){
+    
+    html{
+        font-size:15px;
+    }
+    #Products .col:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+    #about .col img{
+        margin-top: 15%;
+        width: 70%;
+    }
+    #about .col{
+        font-size: 10px;
+    } 
+}
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 50%;
+    }
+    #Products .col:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEEDY-SHOP</title> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <!--Header secton-->
+    <nav class="navbar navbar-expand-lg bg-light sticky-sm-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>Teedy<span style="color:rgb(148, 6, 93);">shop</span></b> </a>
+           <!--Navber-toggler-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-white">
+        <li class="nav-item mx-2">
+          <a class="nav-link text-black" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-black" aria-current="page" href="#about">About</a>
+        </li>
+        <li class="nav-item dropdown text-black mx-2">
+          <a class="nav-link dropdown-toggle  text-black" href="#product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu" >
+            <li> <a class="nav-link text-black hover-orange" aria-current="page" href="#blue">Blue Teedy</a></li>
+            <li><a class="nav-link text-black" aria-current="page" href="#pink">Pink Teedy</a></li>
+            <li><a class="nav-link text-black" aria-current="page" href="#green">Green Teedy</a></li>
+            <li><a class="nav-link text-black" aria-current="page" href="#red">Red Teedy</a></li>
+            <li><a class="nav-link text-black" aria-current="page" href="#purple">Purple Teedy</a></li>
+            <li><a class="nav-link text-black" aria-current="page" href="#yellow">Yellow Teedy</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-black" aria-current="page" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="btn1"><i class="fa-solid fa-heart"></i></button>
+        <button type="button" class="btn1"><i class="fa-solid fa-cart-shopping mx-3"></i></button>
+        <button type="button" class="btn btn-primary ml-5"><i class="fa-solid fa-user mx-2"></i>Sign in</button>
+    </div>
+        </div>
+    </nav>
+        <!--navbar end-->  
+<!--Home section-->
+<div class="bg">
+<section id="home">
+<div class="card text-bg-dark">
+    <img src="teedy-bg-img.png" class="card-img" alt="">
+    <div class="card-img-overlay text-center ">
+      <h1 class="card-title mb-2">TEEDY-SHOP</h1>
+      <span  style="color:rgb(255, 5, 159);"><b> Beautiful Teedy</b> </span>
+        <br>
+        <button type="button" class="btn btn-primary ml-5 mt-3">Shop now</button>
+    </div>
+  </div>
+</section>
+<!--Home section end -->
+<!--about section-->
+<section class="about section-padding">
+  <div class="container"  id="about">
+<h1 class="text-center">
+ <b> About <span style="color:rgb(148, 6, 93);">us</span></b>
+</h1>
+<hr>
+ <div class="container">
+  <div class="row">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="imgabout.png" alt="" width="50%">
+        </div>
+        <div class="col mt-5">
+         <h1> Teedy-shop</h1>
+         <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, commodi eligendi consequatur asperiores ex quidem possimus culpa at natus voluptates rem provident placeat libero nobis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+</section>
+<hr>
+<!--about end section-->
+<!--products section-->
+<section id="Products" class="section-padding">
+  <div class="container">
+  <h1 class="text-center"><b><span style="color:rgb(148, 6, 93);"> P</span>roducts </b></h1>
+  <hr>
+  <div class="container mt-3">
+    <div class="row row-cols-1 row-cols-md-3 g-4 position-relative">
+      <div class="col">
+    <div class="card text-bg-light" style="box-shadow: 2px 2px 2px 2px black;">
+      <button type="button" class="btn1">
+        <div class="position-absolute top-0 start-0 translate-middle m-3">
+          <i class="fa-solid fa-heart"></i></div></button><button type="button" class="btn1"><div class="position-absolute top-0 end-0 translate-middle m-3">
+            <i class="fa-solid fa-cart-shopping"></i></div></button>
+          <div id="blue">
+            <img src="IMGA.png" class="card-img-top" alt="Image">
+          </div>
+      
+          <div class="card-body">
+            <h5 class="card-title text-center">Blue Teedy</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light"style="box-shadow: 2px 2px 2px 2px black;">
+          <button type="button" class="btn1">
+            <div class="position-absolute top-0 start-0 translate-middle m-3">
+              <i class="fa-solid fa-heart"></i></div></button><button type="button" class="btn1"><div class="position-absolute top-0 end-0 translate-middle m-3">
+                <i class="fa-solid fa-cart-shopping"></i></div></button>
+          <div id="pink">
+            <img src="img7.png" class="card-img-top" alt="Image">
+          </div>
+          <div class="card-body">
+           <h5 class="card-title text-center">Pink Teedy</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light"style="box-shadow: 2px 2px 2px 2px black;">
+          <button type="button" class="btn1">
+            <div class="position-absolute top-0 start-0 translate-middle m-3">
+              <i class="fa-solid fa-heart"></i></div></button><button type="button" class="btn1"><div class="position-absolute top-0 end-0 translate-middle m-3">
+                <i class="fa-solid fa-cart-shopping"></i></div></button>
+          <div id="green">
+            <img src="img5 (1).png" class="card-img-top" alt="Image">
+          </div>
+          <div class="card-body ">
+            <h5 class="card-title text-center">Green Teedy</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-light"style="box-shadow: 2px 2px 2px 2px black;">
+          <button type="button" class="btn1">
+            <div class="position-absolute top-0 start-0 translate-middle m-3">
+              <i class="fa-solid fa-heart"></i></div></button><button type="button" class="btn1"><div class="position-absolute top-0 end-0 translate-middle m-3">
+                <i class="fa-solid fa-cart-shopping"></i></div></button>
+          <div id="grape">
+            <img src="img4.png" class="card-img-top" alt="Image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Red Teedy</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light"style="box-shadow: 2px 2px 2px 2px black;">       <button type="button" class="btn1">
+          <div class="position-absolute top-0 start-0 translate-middle m-3">
+            <i class="fa-solid fa-heart"></i></div></button><button type="button" class="btn1"><div class="position-absolute top-0 end-0 translate-middle m-3">
+              <i class="fa-solid fa-cart-shopping"></i></div></button>
+          <div id="purple">
+            <img src="img3.png" class="card-img-top" alt="Image" width="50">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Purple Teedy</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light"style="box-shadow: 2px 2px 2px 2px black;">
+          <button type="button" class="btn1">
+            <div class="position-absolute top-0 start-0 translate-middle m-3">
+              <i class="fa-solid fa-heart"></i></div></button><button type="button" class="btn1"><div class="position-absolute top-0 end-0 translate-middle m-3">
+                <i class="fa-solid fa-cart-shopping"></i></div></button>
+          <div id="yellow" style="background-color: white;">
+            <img src="img6.png" class="card-img-top mt-3" alt="Image" >
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Yellow Teedy</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--product end section-->
+<!--Contact-->
+<section id="contact" class="section-padding">
+  <h1 class="text-center"><b> Contact <span  style="color:rgb(148, 6, 93);">  US</b></span></h1>
+  <hr>
+  <div class="container" style="background-color: rgb(164, 70, 128);">
+    <div class="position-relative">
+    <br>
+    <div class="row mt-5">
+      <div class="col-md-4 py-1 py-md-0">
+        <div class="form-group">
+          <input type="text" class="form-control" id="usr" placeholder="Name">
+        </div>
+      </div>
+      <div class="col-md-4 py-1 py-md-0">
+        <div class="form-group">
+          <input type="email" class="form-control" id="eml" placeholder="Email">
+        </div>
+      </div>
+      <div class="col-md-4 py-1 py-md-0">
+        <div class="form-group">
+          <input type="number" class="form-control" id="phn" placeholder="Phone">
+        </div>
+      </div>
+      <br>
+    </div>
+    <br>
+    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+      <option selected>Open this select product</option>
+      <option value="1">Blue Teedy</option>
+      <option value="2">Pink Teedy</option>
+      <option value="3">Green Teedy</option>
+      <option value="4">Red Teedy</option>
+      <option value="5">Purple Teedy</option>
+      <option value="6">Yellow Teedy</option>
+    </select>
+    <div>
+      
+      <button type="button" class="btn btn-primary mt-5  p-2  position-absolute start-50 translate-middle">send Message</button>
+    </div>
+  </div>
+    <br>
+  </div>
+</section>
+<!--contact end-->
+<!--Footer strat-->
+<footer class="p-5 mt-5 section-padding" >
+ <b> <h1 class="text-center">Teedy-shop</h1></b>
+  <div class="icons text-center" style="font-size: xx-large;">
+    <i class="fa-brands fa-square-instagram" ></i>
+    <i class="fa-brands fa-square-twitter "></i>
+    <i class="fa-brands fa-square-whatsapp "></i>
+  </div>
+  <br>
+  <div class="copyright text-center">
+   <b>&copy; Copyright <strong>Teedy-shop</strong> .All Rights Reserved</b>
+  </div>
+  <br>
+</div>
+</footer>
+<!--Footer end-->
+</body>
+</html>
